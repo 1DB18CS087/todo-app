@@ -1,0 +1,96 @@
+/* Add this to top of your CSS to load the Material icon font */
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
+
+.todo-container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    margin-bottom: 24px;
+  }
+  
+  .todo-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 24px;
+  }
+  
+  .todo-form input {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .todo-form button {
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .task-list {
+    list-style: none; /* removes default bullets */
+    padding-left: 0;
+  }
+  
+  .task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .task-item label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    flex: 1;
+    text-align: left;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  font-feature-settings: 'liga';
+  user-select: none;
+}
+  
+  .delete-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 4px;
+    margin-left: 12px;
+    color: #e00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.3s ease;
+  }
+  
+  .delete-btn:hover {
+    color: #ff0000;
+  }
+  
